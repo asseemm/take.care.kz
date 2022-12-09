@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+.header{
+    /* background-color: rgba(24, 31, 35, 0.5); */
+    background-color: rgba(24, 49, 53, 0.6);
+    height: 950px;
+    
+    
+}
+.header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:  url(../img/teamwork.webp) no-repeat center center/cover;
+    width: 100%;
+    height: 950px;
+    z-index: -1;
+    opacity: .8;
+    background-attachment: fixed;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav img{
+    width: 300px;
+    margin-top: -100px;
+
+}
+.nav-bar{
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 34px;
+    letter-spacing: 1.3px;
+}
+
+.nav-bar a:hover{
+    color: #97C9D0;
+}
+.header h1{
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    text-align: center;
+    color: #fff;
+    margin-top: 8%;
+}
+
+/*----------SECOND----------*/
+
+.second-content{
+    display: flex;
+    /* text-align: center; */
+    margin-top: 10%;
+    margin-bottom: 11%;
+    justify-content: space-between; 
+    margin-left: 16%;
+    margin-right: 16%;
+}
+.second-content img{
+    width: 500px;
+}
+.ellipse{
+    justify-content: center;
+    z-index: -5;
+    
+}
+.rectangle{
+    justify-content: center;
+    margin-top: -5%;
+}
+.rectangle img{
+    width: 60%;
+}
+
+.second-content p{
+    /* margin-left: 28%;
+    margin-right: 28%; */
+    width: 600px;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.second-text{
+    margin-top: 0%;
+}
+
+.second-text h1{
+    font-family: 'Alumni Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+}
+.line{
+    width: 3px;
+    background-color: #97C9D0;
+    
+}
+.second-content button{
+    background: #97C9D0;
+    border: none;
+    height: 45px;
+    border-radius:20px;
+    margin-top: 2%;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.second-content a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+/*----------THIRD----------*/
+
+.third{
+    background:  url(../img/Rectangle\ 23.png) no-repeat center center/cover;
+    background-color:rgb(62, 105, 111);
+    background-attachment: fixed;
+    width: 100%;
+    height: 950px;
+    z-index: -1;
+    opacity: .8;
+}
+.third-content{
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.third-text{
+    text-align: center;
+    border: solid 5px #fff;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.third-text h1{
+    font-size: 100px;
+    margin-bottom: -150px;
+    font-weight: 100;
+    
+}
+
+.third-text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    padding: 15%;
+}
+
+/*----------Fourth----------*/
+.fourth-content{
+    /* justify-content: center; */
+    display: grid;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+
+.fourth-cont-1{
+    display: flex;
+    justify-content: space-between;
+}
+.fourth-cont-1 img{
+    width: 300px;
+    margin-right: 10px;
+}
+.fourth-cont-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.fourth-cont-2 img{
+    width: 230px;
+    margin-right: 10px;
+}
+
+/*----------FOOTER--------*/
+footer{
+    background-color: #313131;
+    height: 250px;
+    color: #fff;
+}
+
+.footer-content{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.foot-links{
+    margin-bottom: 10px;
+}
+
+.foot-links img{
+    margin: 20px;
+    width: 40px;
+}

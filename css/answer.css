@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+.header{
+    background-color: #97C9D0;
+    height: 200px;
+    
+}
+.nav{
+    display: flex;
+}
+
+.nav img{
+    width: 300px;
+    margin-top: -90px;
+}
+.nav-bar{
+    margin-left: 35%;
+    margin-top: 2.5%;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 40px;
+    letter-spacing: 1.3px;
+}
+
+.nav-bar a:hover{
+    color: #dedede;
+}
+
+.box{
+    margin-top: -4%;
+    margin-left: 10%;
+    background-color: #fff;
+    width: 80%;
+    height: 900px;
+}
+
+/*--------Write below--------*/
+  .question-header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .question-header h1{
+    color: #595959;
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Alumni Sans';
+    margin-left: 650px;
+    margin-top: 30px;
+  }
+  .button {
+    background-color: #97C9D0;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    height: 80px;
+    width: 80px;
+    border-radius: 180px;
+    margin-top: 45px;
+    margin-right: 90px ;
+    padding-bottom: 20px;
+  }
+
+  .button a{
+    color: #fff;
+  }
+  .button:hover {background-color: #98bbc0}
+  
+
+
+.qs-cards{
+    margin-top: 50px;
+}
+
+.question-card{
+    border: solid 0.5px rgba(89, 89, 89, 0.5);
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-bottom: 50px;
+}
+
+.question-card h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #595959;
+    margin-bottom: 25px;
+}
+
+.question-card p{
+    width: 950px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #595959;
+    margin-bottom: 30px;
+}
+
+.question-card button{
+    background-color: #97C9D0;
+    border: none;
+    border-radius: 30px;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.question-card button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+/*----------FOOTER----------*/
+footer{
+    background-color: #313131;
+    height: 250px;
+    color: #fff;
+}
+
+.footer-content{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.foot-links{
+    margin-bottom: 10px;
+}
+
+.foot-links img{
+    margin: 20px;
+    width: 40px;
+}
